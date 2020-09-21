@@ -1,0 +1,26 @@
+name: CustomizedDeathMessages
+author: BingoRufus
+version: 1.0
+description: Toggle between death messages
+api-version: 1.13
+main: me.bingorufus.customizeddeathmessages.CustomizedDeathMessages
+commands:
+  setdeathmessage:
+    aliases: [sdm]
+    description: select your death message preset
+  customizeddeathmessagesreload:
+    aliases: [cdmreload]
+    description: Reload the config and all presets
+  getdeathmessage:
+    aliases: [gdm]
+    description: Get other's death messages
+permissions:
+  cdm.*:
+    description: All CustomizedDeathMessages Permissions
+    children: 
+      cdm.presets.*:
+        description: All CustomizedDeathMessagesPresets
+      cdm.other: 
+        description: Set others' preset
+      cdm.reload: 
+       description: Reload all messages and the config

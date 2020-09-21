@@ -1,0 +1,19 @@
+prefix: "&cDeath &l>&r "
+do-hover-message: true
+selector-title: "&aDeathMessageSelector - %player%"
+
+default-preset: #Leave blank to use default death messages, otherwise use the preset's name
+default-icon: #This will be used if the above option is blank or does not contain an existing preset
+  material: Grass_Block
+  amount: 1
+  name: "&aDefault"
+  lore:
+    - "&8Default"
+    - "&8Click me to select this Preset"
+permission-denied: "&cYou do not have permission to do that"
+
+change-self: "Your preset has been changed to %preset%"
+change-other: "%player%'s preset has been changed to %preset%"
+
+get-self: "You have selected %preset%"
+get-other: "%player% has selected %preset%"
